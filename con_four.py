@@ -71,12 +71,20 @@ def play_game():
     if winning("X") == True:
       print("Gracz X wygrał!")
       return None
+    if 
+    no_more_moves() == True:
+      print("REMIS!")
+      return None
     print("Gracz O: Wybierz kolumnę do wrzucenia klocka (od 1 do 7):")
     gracz2 = input()
     insert(int(gracz2), "O")
     print_board()
     if winning("O") == True:
       print("Gracz O wygrał!")
+      return None
+    if 
+    no_more_moves() == True:
+      print("REMIS!")
       return None
 
 play_game()
