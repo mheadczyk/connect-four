@@ -1,5 +1,5 @@
 # connect-four
-Very primitive connect four game made in couple hours.
+Very primitive connect four game made in short time.
 
 Very simple game that uses concept of popular connect four.
 Your job is to have 4 same pieces in a row horizontally, vertically or diagonally.
